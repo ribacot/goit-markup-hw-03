@@ -1,0 +1,153 @@
+/* css var */
+:root {
+  --primari-brend: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtitl-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white: #ffffff;
+}
+
+body {
+  color: var(--text);
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  background-color: var(--white);
+}
+
+.section-title {
+  color: var(--dark);
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.section-subtitle {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.section-text {
+  color: var(--dark);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link,
+.logo-link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link:focus,
+.link:hover {
+  color: var(--pressed-state);
+}
+
+button {
+  color: var(--primari-brend);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  background-color: var(--accent);
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
+  background-color: var(--pressed-state);
+  color: var(--white);
+}
+
+/* header */
+
+.logo {
+  color: inherit;
+  font-family: raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: var(--primari-brend);
+}
+
+.head-nav a {
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact a {
+  color: inherit;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+/* hero*/
+.hero {
+  background-color: var(--hero-background);
+}
+
+.hero-title {
+  color: var(--white);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-btn {
+  color: var(--white);
+  background-color: var(--primari-brend);
+}
+
+/* features */
+.features-title {
+  visibility: hidden;
+}
+
+/* team */
+.team {
+  background-color: var(--light);
+}
+
+/* footer */
+
+.basement {
+  background-color: var(--dark);
+}
+
+.basement > .logo {
+  color: var(--light);
+}
+
+.futer-text {
+  color: var(--accent);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* portfolio */
+
+.portfolio-title {
+  visibility: hidden;
+}
