@@ -297,15 +297,14 @@ img {
 
 .basement .logo {
 	color: var(--light);
+	margin-bottom: 16px;
 }
 
-.basement > .container {
-	padding-left: 156px;
-}
 .futer-text {
 	color: var(--accent);
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	margin-top: 0;
 	margin-bottom: 0;
 	max-width: 264px;
 }
