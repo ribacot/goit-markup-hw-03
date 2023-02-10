@@ -327,7 +327,6 @@ img {
 .portfolio-examples {
 	display: flex;
 	flex-wrap: wrap;
-	/* margin-bottom: -48px; */
 }
 
 .portfolio-examples > .item {
