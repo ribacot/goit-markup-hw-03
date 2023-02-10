@@ -343,3 +343,7 @@ img {
 .portfolio-examples img {
 	margin-bottom: 32px;
 }
+
+.portfolio-examples>.item:nth-last-child(-n+3){
+	margin-bottom: 0;
+}
